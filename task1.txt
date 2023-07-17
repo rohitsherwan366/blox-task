@@ -1,0 +1,59 @@
+Mandatory : Elaborate what your internship or academic projects were?
+ a. What did the system do?
+    At Openhouse, I am working as a Product Engineer. One of the projects I worked on was the Member App and Alfred. 
+    For the Member App, I integrated Clevertap and Smarlook analytics using React, React Native, and TypeScript. 
+    This allowed us to track user behavior and gain insights into app usage. 
+    As for Alfred, I optimized the v4 attendance APIs by improving their performance and added filters to 
+    enhance the functionality of the attendance management system. 
+    Additionally, I built a Relational Manager (RM) Dashboard using React, which provided RM-specific data and analytics
+
+    At tata 1mg, I worked as sde-1 backend Engineer. I was in the monitization team and responsible for integrating video ads in the search bar page and also migrated
+    zeus apis to merch service. This actually helped to understand the overall api flows. Along with that i have also written unit test cases 
+    for some apis there.
+
+ b. What other systems have you seen in the wild like that?
+    In the industry, I have come across various systems similar to 
+    the ones I worked on during my internship. Member apps are quite common among organizations, 
+    allowing members or users to access specific features or services. Attendance management systems are also widely used
+    in different domains, including education and workforce management. 
+    Similarly, dashboards for specific user roles or analytics purposes are quite prevalent in various industries.
+    
+    Also my internship at SRM university, i was invovled in making full e-commerce website. That's for the first time i reliazed the 
+    how industry actually works and i did the payment integrations, also build the add to cart functionality. It was a great learning 
+    experience.
+
+
+ c. Howdoyou approach the development problem?
+    When approaching development problems, I follow a 
+    systematic approach. Firstly, I analyze the requirements and specifications provided by stakeholders or clients. 
+    Then, I break down the project into smaller tasks or modules and prioritize them based on importance and dependencies. 
+    I conduct research on the relevant technologies, frameworks, and best practices to determine the most suitable solution. 
+    I then proceed with coding, testing, and iterating based on feedback. Throughout the development process, I maintain clear 
+    communication with the team to ensure alignment and address any challenges that may arise.
+
+
+ d. What were interesting aspects where you copied code from Stack Overflow?
+     While developing projects, I have occasionally referred to code snippets or solutions on 
+     Stack Overflow to solve specific problems or overcome roadblocks. Stack Overflow is a valuable 
+     resource that provides a vast repository of knowledge shared by developers worldwide. I typically use it when encountering 
+     issues related to specific libraries, frameworks, or edge cases that require a workaround. It's important to note that I always 
+     make sure to understand and modify the code to fit my specific use case, ensuring that it aligns with best practices and 
+     meets the project's requirements.
+
+
+ e. What did you learn from some very specific copy paste? Mention explicitly
+ some of them.
+    Copy-pasting specific code snippets from Stack Overflow has taught me several valuable lessons. Some of them include:
+        Understanding different approaches: When encountering an issue, I often come across multiple solutions on Stack Overflow. 
+        Copying and studying different code snippets helped me gain insights into alternative approaches, compare their pros and cons, 
+        and choose the most suitable one for my project.
+
+        Debugging techniques: By examining code snippets from Stack Overflow, I learned various debugging techniques and strategies 
+        that helped me identify and resolve issues more effectively. Understanding how other developers debugged similar problems 
+        improved my problem-solving skills.
+
+        Learning best practices: Stack Overflow provides code snippets from experienced developers, allowing me to learn and 
+        incorporate industry best practices into my own code. This exposure to different coding styles and practices has been 
+        beneficial in improving the quality and readability of my code.
+
+    Overall, Stack Overflow has been a valuable resource that has enhanced my learning and problem-solving capabilities as a developer.
