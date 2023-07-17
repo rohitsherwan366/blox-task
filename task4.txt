@@ -1,0 +1,30 @@
+task4 :  There is an API that one must call to get data. The trouble is it will not let you cross
+ the limit of call- say 15 calls per minute. If you cross the limit, the system penalises
+ you by one additional minute of penalty where you can not make any call. Here is
+ how the API looks like: function string call_me(string input).
+ Propose a solution by which:
+ 1. You would be able to use the API within the safe limit.
+ 2. What happens if you are supposed to call the API 20 times per minute? Is
+ there any way to accomplish this?
+ 3. If you were the API designer, what would you do to implement this behaviour?
+
+ solution:
+1. To use the API within the safe limit of 15 calls per minute, we can implement a token bucket algorithm.
+ The token bucket algorithm involves maintaining a bucket of tokens, where each token represents permission to make one API call. 
+ The bucket initially contains 15 tokens. When you make an API call, we consume one token from the bucket. 
+ If the bucket is empty, you wait until it is refilled. 
+ The bucket refills at a rate of 15 tokens per minute (i.e., one token is added every four seconds). This way, you can ensure that you don't exceed the limit of 15 calls per minute.
+
+
+2. If we need to make 20 API calls per minute while still adhering to the 15 calls per minute limit,
+we can implement a variation of the token bucket algorithm. 
+In this case, you would need to adjust the refill rate of the token bucket. 
+Instead of refilling at a rate of 15 tokens per minute, you would need to refill it at a rate of 20 tokens per minute. 
+This way, the bucket will never be empty, and you can continue making API calls without waiting.
+
+3. As an API designer, one approach to implement this behavior would be to use a rate limiting mechanism. 
+The API would keep track of the number of API calls made within a specific time window (in this case, one minute). 
+If the number of calls exceeds the allowed limit (15 calls in this case), the API would reject any additional calls and 
+respond with an appropriate error message. Additionally, the API could impose a penalty for exceeding the limit, 
+such as a temporary block where no calls can be made for a specific duration (e.g., one minute). 
+This penalty would discourage excessive API usage and ensure fair resource allocation for all users.
