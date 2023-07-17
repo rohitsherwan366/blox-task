@@ -1,0 +1,42 @@
+task5 : Banking works by transferring money from account A to account B. Most of the time
+ account A is in one bank while account B is another bank. Implement the code to
+ transfer money. Remember, payee's code runs on a different computer than that of
+ the receiver's code.
+ 1. What are the issues in such a system?
+ 2. What can we do to mitigate some of the issues ?
+ 3. Write the fixing yourself to demonstrate the mitigations.
+
+ solutions:
+
+1. Issues in a system involving money transfers between different banks:
+    a. Security: Security is a significant concern when transferring money between different banks. Unauthorized access, data breaches, 
+    or interception of sensitive information during transmission can lead to financial loss and compromised customer accounts.
+
+    b. Transaction Consistency: Ensuring transaction consistency across different banks can be challenging. There is a risk of 
+    incomplete or inconsistent transfers if both banks involved do not agree on the successful completion of the transaction.
+
+    c. Interoperability: Different banks may have varying systems, protocols, and APIs, making it challenging to establish 
+    seamless integration for money transfers.
+
+    d. Timeliness: Transfer delays due to network issues, system downtime, or validation processes can impact the promptness 
+    of transactions.
+
+2. Mitigations for the issues mentioned above:
+    a. Security: Implementing robust encryption algorithms, secure network protocols (such as SSL/TLS), 
+    and multi-factor authentication can help ensure the security and integrity of data during transit. Banks should also 
+    implement rigorous access control measures, regular security audits, and comprehensive fraud detection mechanisms.
+
+    b. Transaction Consistency: Adopting standardized protocols, such as the ISO 20022 messaging standard, can facilitate 
+    consistent communication and transaction synchronization between banks. Implementing two-phase commit or similar distributed transaction management protocols can ensure that both banks agree on the successful completion of the transaction.
+
+    c. Interoperability: Banks can establish standardized APIs, data formats, and communication protocols to enable seamless
+    interoperability between different banking systems. Industry-wide initiatives, such as open banking, aim to promote 
+    standardized interfaces and enhance collaboration between banks.
+
+    d. Timeliness: Implementing robust infrastructure and network redundancy measures can minimize network-related delays. 
+    Banks should also optimize their internal processes and systems to expedite transaction processing, validation, and settlement.
+
+3. A comprehensive solution to demonstrate mitigations would involve designing and implementing a distributed transaction system using secure 
+communication protocols, standardized messaging formats, and transaction coordination mechanisms. This system would ensure 
+secure and consistent money transfers between different banks. However, such an implementation would require a sophisticated 
+infrastructure and integration capabilities beyond the scope of a code snippet.
